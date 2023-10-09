@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timmer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="timmer.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <div class=" w-[100vw] h-[100vh] flex justify-center items-center bg-[#F8F6F4]">
+        <div
+            class="wrapper flex justify-center items-center bg-[#F0F0F0] rounded-lg w-[90vw] h-[65vh] lg:w-[80vw] lg:h-[80vh] p-4">
+
+            <div class="main justify-center items-center flex flex-col w-[100%] h-[100%]">
+
+                <div class="inputSec flex justify-center items-center mb-[4rem] lg:mb-[5rem] w-[100%] h-[50%]">
+
+                    <div
+                        class="d btn w-[55px] h-auto lg:w-[12ch] lg:h-[12ch]  bg-[#F8F6F4] flex justify-center items-center  ">
+                        <h1 class="o text-[2.5rem]">-</h1>
+                    </div>
+
+                    <div
+                        class="counter btn w-[30ch] h-[fit] lg:w-[30ch] lg:h-[20ch] bg-[#F8F6F4]  p-1 flex justify-center items-center text-center m-[1.8rem] lg:m-[4rem] rounded-lg  ">
+                        <h1 class="text-[4rem]" id="counter">0</h1>
+                        <h1 class="min">min</h1>
+                    </div>
+
+                    <div
+                        class="i btn w-[55px] h-auto lg:w-[12ch] lg:h-[12ch] bg-[#F8F6F4] flex justify-center items-center    ">
+                        <h1 class="o text-[2.5rem]">+</h1>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="flex justify-center items-center gap-[4rem] w-[50%]   ">
+
+
+
+                    <div
+                        class="resetBtn r btn rounded-lg w-[50%] p-2 lg:p-7 lg:h-[6ch] h-[6ch] bg-[#F8F6F4] flex justify-center items-center">
+                        <h1 class="text-[1rem] lg:text-[2rem]">RESET</h1>
+                    </div>
+                    <button onclick="st();"
+                        class="startBtn s btn rounded-lg w-[50%] p-2 lg:p-7 lg:h-[6ch] h-[6ch]  bg-[#F8F6F4] flex justify-center items-center">
+                        <h1 class="text-[1rem] lg:text-[2rem] ">START</h1>
+                    </button>
+                    <button onclick="stop();"
+                        class="stopBtn  btn rounded-lg w-[50%] p-2 lg:p-7 lg:h-[6ch] h-[6ch]  bg-[#F8F6F4] flex justify-center items-center">
+                        <h1 class="text-[1rem] lg:text-[2rem] ">STOP</h1>
+                    </button>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <script src="./script.js"></script>
+</body>
+
+</html>

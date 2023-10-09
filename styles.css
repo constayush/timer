@@ -1,0 +1,52 @@
+.d:hover {
+  cursor: pointer;
+}
+
+.i:hover {
+  cursor: pointer;
+}
+
+.o:hover {
+  cursor: pointer;
+}
+
+.startBtn,
+.resetBtn {
+  cursor: pointer;
+}
+
+.wrapper {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 6px 20px,
+    rgba(17, 17, 26, 0.1) 0px 14px 52px, rgba(17, 17, 26, 0.1) 0px 20px 78px;
+}
+
+.btn {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.counter {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+* {
+  user-select: none;
+}
+* {
+  color: #3d424a;
+}
+
+.i,
+.d {
+  border-radius: 50%;
+  transition: all 0.7s ease;
+}
+
+.min {
+  margin-top: 2rem;
+}
+
+.counter {
+  transition: all 0.5s ease;
+  color: #ffc4b9;
+}
